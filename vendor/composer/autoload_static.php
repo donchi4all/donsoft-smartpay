@@ -7,14 +7,44 @@ namespace Composer\Autoload;
 class ComposerStaticInit5cc9314104ce7d7a53a5f5381c044018
 {
     public static $prefixLengthsPsr4 = array (
-        'M' => 
+        'D' => 
         array (
-            'Mkparuchisomemmanuel\\SmartPay\\' => 30,
+            'Donsoft\\SmartPay\\Services\\Routing\\' => 34,
+            'Donsoft\\SmartPay\\Services\\Processors\\' => 37,
+            'Donsoft\\SmartPay\\Services\\' => 26,
+            'Donsoft\\SmartPay\\Providers\\' => 27,
+            'Donsoft\\SmartPay\\Exceptions\\' => 28,
+            'Donsoft\\SmartPay\\Contracts\\' => 27,
+            'Donsoft\\SmartPay\\' => 17,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Mkparuchisomemmanuel\\SmartPay\\' => 
+        'Donsoft\\SmartPay\\Services\\Routing\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Services/Routing',
+        ),
+        'Donsoft\\SmartPay\\Services\\Processors\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Services/Processors',
+        ),
+        'Donsoft\\SmartPay\\Services\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Services',
+        ),
+        'Donsoft\\SmartPay\\Providers\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Providers',
+        ),
+        'Donsoft\\SmartPay\\Exceptions\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Exceptions',
+        ),
+        'Donsoft\\SmartPay\\Contracts\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Contracts',
+        ),
+        'Donsoft\\SmartPay\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

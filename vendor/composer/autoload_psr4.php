@@ -6,5 +6,11 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Mkparuchisomemmanuel\\SmartPay\\' => array($baseDir . '/src'),
+    'Donsoft\\SmartPay\\Services\\Routing\\' => array($baseDir . '/src/Services/Routing'),
+    'Donsoft\\SmartPay\\Services\\Processors\\' => array($baseDir . '/src/Services/Processors'),
+    'Donsoft\\SmartPay\\Services\\' => array($baseDir . '/src/Services'),
+    'Donsoft\\SmartPay\\Providers\\' => array($baseDir . '/src/Providers'),
+    'Donsoft\\SmartPay\\Exceptions\\' => array($baseDir . '/src/Exceptions'),
+    'Donsoft\\SmartPay\\Contracts\\' => array($baseDir . '/src/Contracts'),
+    'Donsoft\\SmartPay\\' => array($baseDir . '/src'),
 );
