@@ -220,9 +220,6 @@ This package is open-source software licensed under the [MIT license](LICENSE).
 
 This **Donsoft SmartPay** package provides a flexible, customizable solution for routing payment transactions in Laravel applications. By allowing easy configuration and extensibility, developers can adapt it to suit their specific business logic and requirements.
 
-If you have any questions or need support, feel free to reach out to the author:
-
-**Chisom Mkparu**  
-[mkparuchisom@gmail.com](mailto:mkparuchisom@gmail.com)
+If you have any questions or need support, feel free to reach out to the author
 ``` 
 
