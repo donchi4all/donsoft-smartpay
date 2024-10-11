@@ -1,6 +1,7 @@
 {
     "name": "donsoft/smartpay",
     "description": "A Laravel package to intelligently route payment transactions.",
+    "license": "MIT",
     "keywords": [
         "laravel",
         "payment",
