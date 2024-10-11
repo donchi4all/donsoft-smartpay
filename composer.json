@@ -1,0 +1,45 @@
+{
+    "name": "donsoft/smartpay",
+    "description": "A Laravel package to intelligently route payment transactions.",
+    "keywords": [
+        "laravel",
+        "payment",
+        "payment processing",
+        "payment gateway",
+        "transaction routing",
+        "smart pay",
+        "multi-processor",
+        "currency support",
+        "transaction cost",
+        "laravel package",
+        "intelligent routing"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Donsoft\\SmartPay\\": "src/",
+            "Donsoft\\SmartPay\\Contracts\\": "src/Contracts/",
+            "Donsoft\\SmartPay\\Exceptions\\": "src/Exceptions/",
+            "Donsoft\\SmartPay\\Providers\\": "src/Providers/",
+            "Donsoft\\SmartPay\\Services\\": "src/Services/",
+            "Donsoft\\SmartPay\\Services\\Processors\\": "src/Services/Processors/",
+            "Donsoft\\SmartPay\\Services\\Routing\\": "src/Services/Routing/"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.0|^9.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Donsoft\\SmartPay\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chisom Mkparu",
+            "email": "mkparuchisom@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
