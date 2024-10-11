@@ -1,0 +1,26 @@
+# Ignore Composer vendor directory
+/vendor/
+
+# Ignore PHPUnit output and test results
+/tests/_output/
+tests/*.xml
+tests/*.phpunit.result
+
+# Ignore IDE and editor specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.swp
+*.swo
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore other files
+.env
+*.log
+
+# Ignore the README copy
+README copy.md
