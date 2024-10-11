@@ -111,7 +111,7 @@ class PaymentController extends Controller
             $response = $processor->process($transaction);
 
             return response()->json($response);
-        } catch (\\Exception $e) {
+        } catch (\Exception $e) {
             return response()->json(['status' => 'error', 'message' => $e->getMessage()], 400);
         }
     }
