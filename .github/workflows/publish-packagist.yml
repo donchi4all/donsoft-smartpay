@@ -1,0 +1,30 @@
+name: Publish to Packagist
+
+on:
+  release:
+    types: [created]  # This triggers the workflow on release creation
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.0'  # Change this to your required PHP version
+          tools: composer
+
+      - name: Install dependencies
+        run: composer install --prefer-dist --no-progress --no-suggest --no-interaction
+
+      - name: Publish to Packagist
+        env:
+          PACKAGIST_TOKEN: ${{ secrets.PACKAGIST_TOKEN }}
+        run: |
+          curl -X POST "https://packagist.org/api/update-package?username=donchi4all&slug=donsoft/smartpay" \
+          -H "Authorization: Token ${PACKAGIST_TOKEN}" \
+          -d '{"repository":{"url":"https://github.com/donchi4all/donsoft-smartpay.git"}}'
